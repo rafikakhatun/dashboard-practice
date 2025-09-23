@@ -5,9 +5,12 @@ export const router = createBrowserRouter([
 
     {
         path: "/",
+
         element: <DashboardLayout></DashboardLayout>
 
-    }
+    },
+
+    
 
 
 

@@ -17,7 +17,7 @@ export default function DashboardLayout() {
 
   const sidebarItems = [
     { href: '/admin/dashboard', label: 'Dashboard', icon: Home },
-    { href: '/admin/dashboard/User', label: 'User', icon: User },
+    { href: '/admin/dashboard/user', label: 'user', icon: User },
     { href: '/admin/dashboard/profile', label: 'Profile', icon: User },
     { href: '/admin/dashboard/settings', label: 'Settings', icon: Settings },
   ];

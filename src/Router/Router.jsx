@@ -3,6 +3,7 @@ import DashboardLayout from "../Dashboard/DashboardLayout";
 import DashboardPage from "../pages/DashboardPage";
 import User from "../pages/User";
 import Profile from "../pages/Profile";
+import Settings from "../pages/Settings";
 
 export const router = createBrowserRouter([
 
@@ -24,6 +25,11 @@ export const router = createBrowserRouter([
             {
                 path:'/admin/dashboard/profile',
                 element:<Profile></Profile> // profile page route
+            },
+
+            {
+                path:'/admin/dashboard/settings',
+                element:<Settings></Settings>
             }
 
         ]

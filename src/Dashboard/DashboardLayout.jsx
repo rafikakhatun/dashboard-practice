@@ -54,7 +54,7 @@ export default function DashboardLayout() {
                   onClick={() => setSidebarOpen(false)}
                   className={({ isActive }) =>
                     `w-full flex items-center space-x-3 px-4 py-3 rounded-xl transition-all duration-200 ${
-                      isActive ? 'bg-indigo-600 text-indigo-700' : 'text-sky-700 hover:text-white hover:bg-sky-600'
+                      isActive ? 'bg-sky-700 text-white' : 'text-sky-700 hover:text-white hover:bg-sky-600'
                     }`
                   }
                 >

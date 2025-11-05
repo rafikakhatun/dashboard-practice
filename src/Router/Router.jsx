@@ -9,7 +9,7 @@ export const router = createBrowserRouter([
     {
         path: "/",
 
-        element: <DashboardLayout></DashboardLayout>,
+        element: <DashboardLayout></DashboardLayout>, // dashboard layout
         children: [
             {
                 index: true, // '/admin/dashboard' এর জন্য ডিফল্ট পেজ
@@ -17,13 +17,13 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/admin/dashboard/user',
-                element: <User></User>
+                element: <User></User> // user page route
 
             },
 
             {
                 path:'/admin/dashboard/profile',
-                element:<Profile></Profile>
+                element:<Profile></Profile> // profile page route
             }
 
         ]

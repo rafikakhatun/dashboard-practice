@@ -57,7 +57,7 @@ export default function ConfirmationModal({
           <div className="flex items-center gap-4 mt-8 w-full">
             <button
               onClick={onCancel}
-              className="w-full py-2.5 px-4 rounded-lg font-semibold text-slate-600 bg-slate-200 hover:bg-slate-300 transition-colors"
+              className="w-full py-2.5 px-4 rounded-lg font-semibold text-white bg-sky-600 hover:bg-sky-200 hover:text-sky-600 transition-colors"
             >
               Cancel
             </button>

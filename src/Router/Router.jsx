@@ -1,5 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import DashboardLayout from "../Dashboard/DashboardLayout";
+import DashboardPage from "../Dashboard/DashboardPage";
+import User from "../Dashboard/User";
 
 export const router = createBrowserRouter([
 
@@ -10,10 +12,10 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true, // '/admin/dashboard' এর জন্য ডিফল্ট পেজ
-                element: <DashboardPage />,
+                element: <DashboardPage  />,
             },
             {
-                path: 'User',
+                path: '/User',
                 element: <User></User>
 
             }
